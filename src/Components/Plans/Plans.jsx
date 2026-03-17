@@ -5,10 +5,10 @@ const Plans = ({ plans }) => {
     const { name, duration, price, popular, features, buttonText } = plans;
 
     return (
-        <div className='px-4 py-5 sm:p-5 space-y-10 bg-amber-800 opacity-98 duration-1000 rounded-xl'>
+        <div className='px-4 py-5 sm:p-5 space-y-10 bg-amber-800 opacity-98 duration-1000 rounded-xl z-0'>
             <div className='flex items-center justify-between flex-wrap'>
-                <h2 className='text-xl sm:text-2xl'>{name} Plan</h2>
-                {popular && <div className="badge badge-soft badge-secondary">Most Popular</div>}
+                <h2 className='text-xl sm:text-2xl font-bold opacity-95'>{name} Plan</h2>
+                {popular && <div className="badge badge-soft badge-secondary rounded-full">Most Popular</div>}
             </div>
             <div className=''>
                 <p className='text-xl font-bold text-white'>{price} {duration}</p>
