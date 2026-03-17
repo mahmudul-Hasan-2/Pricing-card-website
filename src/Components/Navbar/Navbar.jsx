@@ -58,7 +58,7 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <a href='/' className='text-xl font-bold'>Pla<span className='text-blue-400'>ns</span></a>
+                <a href='/' className='text-xl font-bold'>Dev<span className='text-blue-400'>Hoist</span></a>
             </div>
             <div>
                 <ul className='items-center space-x-4 md:flex hidden'>
